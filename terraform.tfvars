@@ -1,0 +1,5 @@
+my_os_image = "ami-0cae6d6fe6048ca2c"
+machine_size = "t2.nano"
+vm_name = "exampleday2"
+aws_region = "us-east-1"
+key_name = "splunk-key"
