@@ -4,7 +4,7 @@ resource "aws_security_group" "example3_sg" {
   vpc_id      = data.aws_vpc.example3_ds.id
 
   tags = {
-    Name = "kums_filewall_rule"
+    Name = "kums_filewall_rule_final"
   }
 }
 
