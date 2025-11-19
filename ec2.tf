@@ -6,6 +6,6 @@ resource "aws_instance" "example" {
   vpc_security_group_ids = [aws_security_group.example3_sg.id]
 
   tags = {
-    Name = "Kumaran VM2"
+    Name = "Kumaran VM3"
   }
 }
